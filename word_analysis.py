@@ -16,7 +16,10 @@ def sum_words(s, w, word):
 
 
 def sentimental_array(phrase):
-    w = np.array([0] * 30)
+    w = np.array(
+        [0]
+        * (len(palabras_negativas) + len(palabras_neutras) + len(palabras_positivas))
+    )
     s = np.array([0, 0, 0])
     for word in phrase:
         sum_words(s, w, word)

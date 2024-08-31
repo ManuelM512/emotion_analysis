@@ -1,18 +1,16 @@
 from word_analysis import sentimental_array
 from string_sanitization import sanitize_phrase
 from phrases import phrases_list
-
-
-def escribir_linea_a_archivo(nombre_archivo, lineas):
-    with open(nombre_archivo, "w") as archivo:
-        for linea in lineas:
-            archivo.write(linea + "\n")
+from text_utils import write_to_file
 
 
 def main():
-    sanitized = []
+    list_to_print = []
     for phrase in phrases_list:
-        sanitized.append(sanitize_phrase(phrase))
+        sanitized = sanitize_phrase(phrase)
+        s, w = sentimental_array(sanitized.split(" "))
+        list_to_print.append(f"{phrase};{s};{w}")
+    write_to_file("phrase_with_arrays.txt", list_to_print)
 
 
 if __name__ == "__main__":
