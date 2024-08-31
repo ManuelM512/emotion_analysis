@@ -14,14 +14,14 @@ palabras_positivas = {
 
 # Diccionario de palabras clave neutras
 palabras_neutras = {
-    "dificultad": 10,
-    "obstáculo": 11,
-    "promoción": 12,
-    "ambiente": 13,
-    "puntual": 14,
-    "aspectos": 15,
-    "entrega": 16,
-    "comunicación": 17,
+    "normal": 10,
+    "tranquilo": 11,
+    "neutral": 12,
+    "común": 13,
+    "corriente": 14,
+    "estándar": 15,
+    "regular": 16,
+    "cotidiano": 17,
 }
 
 # Diccionario de palabras clave negativas
@@ -30,7 +30,7 @@ palabras_negativas = {
     "devastadora": 19,
     "tristeza": 20,
     "defectuoso": 21,
-    "tráfico": 22,
+    "deficiente": 22,
     "terrible": 23,
     "tenso": 24,
     "pérdida": 25,

@@ -1,7 +1,7 @@
 phrases_list = [
     "El éxito del proyecto fue impresionante y dejó a todos motivados.",
     "La derrota fue devastadora, y causó mucha tristeza en el equipo.",
-    "A pesar de la dificultad, lograron superar los obstáculos.",
+    "El ambiente fue tranquilo durante la presentación, con los presentadores motivados, pero la derrota al final dejó un sabor amargo.",
     "El servicio al cliente fue excelente, sin embargo, el producto era defectuoso.",
     "La noticia de su promoción fue recibida con gran alegría por sus colegas.",
     "El tráfico en la ciudad es terrible y estresante.",
